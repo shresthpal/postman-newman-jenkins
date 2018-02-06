@@ -1,0 +1,13 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "Project for API",
+  "scripts": {
+    "api-test-production": "newman run Test/MyPostMan.postman_collection.json"
+  },
+  "author": "Shresth",
+
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
